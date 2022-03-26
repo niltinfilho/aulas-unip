@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #aec6d6, #99A5AD);
+}
+
+header {
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, #6c9bbd, #244257);
+    font-family: 'Roboto Condensed';
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.281);
+}
+
+header h1 {
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 2.6em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.137);
+}
+
+header p {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    max-width: 1000px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.137);
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.281);
+}
+
+main h1 {
+    padding: 15px 0px;
+    font-family: 'Roboto Condensed';
+    font-size: 1.8em;
+    color: rgb(10, 10, 90);
+}
+
+main h2 {
+    padding: 15px 0px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(10, 10, 90);
+}
+
+.titulo-jogo {
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #1d415a, transparent);
+    font-family: 'Roboto Condensed';
+    font-size: 1.3em;
+    text-indent: 10px;
+    color: #081230;
+}
+
+main p {
+    padding: 10px;
+    text-indent: 40px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.externo::after {
+    content: '\00A0\1F517';
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+figcaption {
+    font-size: .7em;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 5px;
+    background-color: #0d2333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: .8em;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+
