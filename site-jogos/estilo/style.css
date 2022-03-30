@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    min-height: 150px;
+    min-height: 200px;
     background-image: linear-gradient(to bottom, #6c9bbd, #244257);
     font-family: 'Roboto Condensed';
     color: white;
@@ -20,9 +20,15 @@ header {
 }
 
 header h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.137);
+}
+header h2 {
     padding: 20px 0px;
     text-align: center;
-    font-size: 2.6em;
+    font-size: 1.5em;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.137);
 }
 
@@ -62,15 +68,6 @@ main h2 {
     color: rgb(10, 10, 90);
 }
 
-.titulo-jogo {
-    margin-bottom: 20px;
-    background-image: linear-gradient(to right, #1d415a, transparent);
-    font-family: 'Roboto Condensed';
-    font-size: 1.3em;
-    text-indent: 10px;
-    color: #081230;
-}
-
 main p {
     padding: 10px;
     text-indent: 40px;
@@ -84,16 +81,51 @@ main a:hover {
     text-decoration: underline;
 }
 
+main img {
+    width: 100%;
+}
+
+img.jogo {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+img.pequena {
+    max-width: 10%;
+}
 .externo::after {
     content: '\00A0\1F517';
+}
+
+main table {
+    margin-bottom: 30px;
 }
 
 article {
     margin-bottom: 30px;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(27, 27, 71);;
+}
+
+table th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table td{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
 figcaption {
     font-size: .7em;
+    padding: 0px;
 }
 
 footer {
