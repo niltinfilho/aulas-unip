@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+    background-image: url('../imagens/pattern001.png');
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: center bottom;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.escondido {
+    display: none;
+}
+
+.botao:hover
+
+
