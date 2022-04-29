@@ -19,6 +19,24 @@ h1 {
     display: none;
 }
 
-.botao:hover
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 
+body {
+    background-color: blueviolet;
+    background-image: url('../imagens/niltin-logo-certa.png');
+    background-repeat: space;
+    background-attachment: fixed;
+    background-position: left center;
+    background-size: 100px;
+}
 
+h1 {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: lighter;
+
+    background-color: rgb(180, 0, 252);
+    margin: 10px 100px;
+    padding: 5px;
+}
