@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Formulário</title>
+    <style>
+        div {
+            border: 1px solid black;
+            max-width: 20%;
+            height: 20px;
+        }
+    </style>
 </head>
 <body>
     <h2>JavaScript com Formulário</h2>
-    <form>
+    <form method="post">
         <label>Número 1:</label>
         <input type="text" name="num1" id="num1">
         <br>
@@ -19,7 +26,8 @@
         <input type="button" value="Somar" onclick="somar()">
         <br>
         <br>
-        <input type="text" name="res" id="res" readonly>
+        <!-- <input type="text" name="res" id="res"> -->
+        <div id="res"></div>
     </form>
 
     <script src="js/script.js"></script>
